@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9284CDE2F2ACD8C00B1830F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C9284CDD2F2ACD8C00B1830F /* .gitignore */; };
 		C9AA47722F2AB3E900EA4029 /* MediaCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AA47712F2AB3E900EA4029 /* MediaCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9284CDD2F2ACD8C00B1830F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		C9AA475B2F2AA7F900EA4029 /* MacRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AA47712F2AB3E900EA4029 /* MediaCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,6 +39,7 @@
 		C9AA47522F2AA7F900EA4029 = {
 			isa = PBXGroup;
 			children = (
+				C9284CDD2F2ACD8C00B1830F /* .gitignore */,
 				C9AA476F2F2AB27C00EA4029 /* Shared */,
 				C9AA475D2F2AA7F900EA4029 /* MacRemote */,
 				C9AA475C2F2AA7F900EA4029 /* Products */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9284CDE2F2ACD8C00B1830F /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
