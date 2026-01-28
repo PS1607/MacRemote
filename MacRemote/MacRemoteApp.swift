@@ -9,6 +9,17 @@ import SwiftUI
 
 @main
 struct MacRemoteApp: App {
+
+    #if os(macOS)
+    private let receiver = CommandReceiver()
+    #endif
+
+    init() {
+        #if os(macOS)
+        receiver.start()
+        #endif
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
